@@ -1,0 +1,9 @@
+body{
+    background-color: blue
+}
+
+h1,h2,h6,p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: chartreuse;
+}
