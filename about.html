@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Javascript operations</h1>
+  <p id="demo">This is a demo</p>
+  
+  <script>
+    const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi", "Mercedes"];
+    let i = 0;
+    let text = "";
+    while(i < cars.length){
+      text += cars[i] + "<br>";
+      i++;
+    }
+    document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
+

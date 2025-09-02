@@ -1,0 +1,69 @@
+    Javascript
+
+changing theme, dark or light , live clock
+
+syntax -
+ the rules Javascript use to work its magic
+
+ variables Javascript stores it data.
+        example; var x; - old school way
+                let y; modern way
+
+                eg let x, y, z;
+                x = 5;
+                y = 4;
+                z = x + y;
+
+                literals - are fixed values eg x and y.
+                 types of literals
+       1. numbers 23, 17.54
+       2. strings "joseph" 'joseph' "23"
+
+       Arithmetic operators.
+       They perform mathematic operation. eg + - * /
+       Assignment operator
+       it assigns a value to a variable.
+       Expression
+       Is a combination of values, varibles and operators that gets evaluated
+        example z = x + y;
+
+   varibles
+
+1. identifiers and names
+naming your varibles,
+    Javascript names must begin with a 
+        A-Z or a-Z eg getElementByI or GetElementByI
+        A dollar sign ($) &getElementByI
+        underscore(-) _getElementByI
+
+  NOTE: we do not use keywords when naming our varibles, 
+          examples of key words, var, let, if, for, while
+
+          Naming conventions
+     1. Camel case: firstName
+     2. underscore: first_Name
+     3. pascal case: FirstName
+
+Function is a section of resuable code
+        declare code once
+        use it whenever you want 
+        call function to execute the code.
+
+function declaration and defination
+      eg function printMe() {
+        console.log('priniting...')
+      }
+
+      printMe();
+
+      parameters - function printMe(param) {
+        console.log('priniting...')
+      }
+
+
+types of loops
+ for loops
+
+ for (ex1; ex2; ex3){
+  //lines of code to be executed
+ }

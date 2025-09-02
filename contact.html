@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Demo Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navbar -->
+  <nav class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-blue-600">My Portfolio</h1>
+    <ul class="flex gap-6 text-gray-600">
+      <li><a href="#" class="hover:text-blue-600">Home</a></li>
+      <li><a href="#" class="hover:text-blue-600">About</a></li>
+      <li><a href="#" class="hover:text-blue-600">Projects</a></li>
+      <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-blue-50">
+    <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
+    <p class="text-gray-600 mb-6">Learning Tailwind CSS with a simple project</p>
+    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700">Get Started</button>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="max-w-6xl mx-auto py-16 px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Fast Styling</h3>
+      <p class="text-gray-600">Use utility classes to style without writing custom CSS.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Responsive</h3>
+      <p class="text-gray-600">Tailwind makes it simple to design responsive layouts.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Customizable</h3>
+      <p class="text-gray-600">Easily customize colors, spacing, and components.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 text-center p-6">
+    <p>© 2025 My Portfolio. Built with <span class="text-blue-400">Tailwind CSS</span>.</p>
+  </footer>
+</body>
+</html>
